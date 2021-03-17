@@ -1,6 +1,6 @@
 // Check if value is set
 export function isset(value) {
-    return value == undefined || value == NaN
+    return value != undefined || value != NaN
 }
 
 // Check if value is int/number

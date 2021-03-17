@@ -4,7 +4,7 @@
   "description": "Micro-library for validating values in JavaScript, can be used to test function arguments",
   "main": "safe-values.js",
   "scripts": {
-    "serve": "parcel ./src/sandbox/index.html --open -p 8080",
+    "serve": "parcel ./src/example/index.html --open -p 8080",
     "build": "parcel build ./src/lib/safe-values.js"
   },
   "repository": {
